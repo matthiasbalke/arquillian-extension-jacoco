@@ -10,5 +10,12 @@
     <property name="includes">org.jboss.arquillian.extension.jacoco.test.included.*</property>
     <property name="excludes">org.jboss.arquillian.extension.jacoco.test.integration.*;org.jboss.arquillian.extension.jacoco.test.excluded.*</property>
   </extension>
+
+    <!-- Required configuration for an embedded GlassFish instance -->
+    <container qualifier="glassfish-embedded" default="true">
+        <configuration>
+            <property name="bindHttpPort">7100</property>
+        </configuration>
+    </container>
         
 </arquillian>
