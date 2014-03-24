@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/matthiasbalke/arquillian-extension-jacoco.png?branch=master)](https://travis-ci.org/matthiasbalke/arquillian-extension-jacoco)
+
 Arquillian Jacoco Extension
 
 Automagic Remote InContainer Codecoverage
