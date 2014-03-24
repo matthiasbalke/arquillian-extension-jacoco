@@ -1,0 +1,10 @@
+language: java
+
+jdk:
+  - openjdk7
+  - oraclejdk7
+env:
+  - PROFILE=unit
+  - PROFILE=integration,managed
+  - PROFILE=gf-integration
+script: mvn test -B -P${PROFILE}
